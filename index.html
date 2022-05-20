@@ -6,8 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ryan Corkill's Website</title>
 </head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
 <body>
-    <img src="sunset.jpeg" alt="This is a test image" height="42" width="42">
-<h1>WELCOME to my website. More to come. \nHi Anna Marie!</h1>
+<div class="container">
+  <img src="sunset.jpeg" alt="Sunset" style="width:100%;">
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left">Top Left</div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div>
 </body>
 </html>
+
