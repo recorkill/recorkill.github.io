@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: #fbfafa;
+  color: black;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background: rgba(89, 72, 181, 0.402);
+  color: white;
+  padding: .5%;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #1E6B52;
+}
+
+.navbar .logo span {
+  color: #FFD602;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  place-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
