@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@media only screen and (min-width: 50em) {
+  .site-content {
+    margin-top: 0em;
+  }
+}
+
 body {
   background: #fbfafa;
   color: black;
@@ -9,7 +15,7 @@ body {
 .navbar {
   background: rgba(140, 37, 37, 0.402);
   color: white;
-  padding: .5%;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,5 +52,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin: 0;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero-text h1 {
+  position: relative;
+  left: 31%;
+  top: 80px;
+  font-size: 50px;
 }
 /*# sourceMappingURL=main.css.map */
