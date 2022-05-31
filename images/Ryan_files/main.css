@@ -30,7 +30,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: center;
+  position: relative;
   height: auto;
   width: 100%;
   padding: 0;
@@ -38,10 +38,7 @@ body {
 
 .navbar li {
   display: inline;
-  border: solid 1px black;
-  padding: 10px;
-  margin: 10px;
-  float: right;
+  width: 100%;
 }
 
 .navbar .container {

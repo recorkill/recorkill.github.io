@@ -31,11 +31,21 @@ body
     {
         display: flex;
         justify-content: space-between;
-        position: unset;
+        position: center;
         height: auto;
         width: 100%;
         padding: 0;
     }
+
+    li 
+    {
+        display: inline;
+        border: solid 1px black;
+        padding: 10px;
+        margin: 10px;
+        float: right;
+
+    };
 
     .container
     {

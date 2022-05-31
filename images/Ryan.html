@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan</title>
+
+  <link rel="stylesheet" href="./Ryan_files/main.css">
+</head>
+<body>
+    
+  <div class="navbar"> 
+    <div class="container">
+      <a class="logo" href="http://127.0.0.1:5500/index.html#">Ryan<span>Corkill</span></a>
+
+      <nav>
+        <ul>
+          <li class="Current"><a href="http://127.0.0.1:5500/index.html#">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/index.html#">About Me</a></li>
+          <li><a href="http://127.0.0.1:5500/index.html#">Previous Work</a></li>
+          <li><a href="http://127.0.0.1:5500/index.html#">Contact</a></li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+
+  <section class="Hero">
+    <div class="container">
+
+      <div class="left-col">
+        <p class="subhead" "="">left column</p>
+        <h1>Header1</h1>
+      </div>
+
+      <div class="right-col">
+        <p class="subhead" "="">right column</p>
+        <h1>Header1</h1>
+      </div>
+
+
+    </div>
+
+    <img src="./Ryan_files/sunset.jpeg" class="Hero-image" alt="Sunset">
+
+  </section>
+
+  <section class="traits">
+    <div class="container">
+      <ul>
+        <li>trait1</li>
+        <li>trait2</li>
+        <li>trait3</li>
+        <li>trait4</li>
+        <li>trait5</li>
+      </ul>
+
+      <img src="./Ryan_files/underdog.jpeg" class="underdog-image" alt="trait-background">
+
+    </div>
+
+  </section>
+
+  <section class="about-me">
+    <div class="container">
+      <h1>About Ryan</h1>
+      <p>content <br>(I love Anna Marie)</p>
+
+      <img src="./Ryan_files/vulcan.jpeg" class="vulcan-image" alt="about-me-background">
+    </div>
+  </section>
+
+  <section class="past-work">
+    <div class="container">
+      <h1>Past Work</h1>
+
+      <p>FRET paper</p>
+      <img src="./Ryan_files/fret.gif" class="fret-image" alt="FRET paper image">
+
+      <p>MOF food truck paper</p>
+      <img src="./Ryan_files/mof-foodtruck.png" class="mof-foodtruck-image" alt="MOF foodtruck paper image">
+
+      <p>Magnetochemistry paper</p>
+      <img src="./Ryan_files/magnetochemistry.png" class="magnetochemistry-image" alt="magnetochemistry paper image">
+
+      <p>EPSCoR talk</p>
+      <img src="./Ryan_files/EPSCoR.gif" class="epscor-image" alt="epscor conference image">
+
+    </div>
+  </section>
+
+  <section class="contact-me">
+    <div class="container">
+
+      <h1>Let's Connect</h1>
+      <p>contact info (email, github, and?)</p>
+
+
+
+    </div>
+  </section>
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
