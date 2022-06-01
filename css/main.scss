@@ -1,8 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @media only screen and (min-width: 50em) {
-    .site-content {
-        margin-top: 0em;
-    }
+  .site-content {
+    margin-top: 0em;
+  }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: poppins, sans-serif;  
+  margin: 0px;
+}
+
+nav {
+  background-color: #3f2edb64;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  float: right;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section#header {
+  background-image: url("/images/sunset.jpeg");
+  color: #f5f4f7;
+  min-height: 100vh;
+}
+
+section#about-me {
+  background: white;
+  color: #0f2852;
+}
+
+section#previous-work {
+  background: white;
+  color: #40081a;
+}
+
+section#contact-me {
+  background-color: white;
+  color: #084012;
+}
+
+article {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
+}
