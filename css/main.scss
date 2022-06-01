@@ -70,6 +70,48 @@ section#about-me {
 section#previous-work {
   background: #719f9f37;
   color: black;
+  padding-top: 20px; /* Fills in the white space between sections*/
+
+
+
+  .upper-row
+  {
+      min-height: 60vh;
+
+
+
+      img 
+      {
+          margin-top: 5%;
+          border: 7px solid black;
+          width: 30vh;
+          height: 40vh;
+      }
+ 
+      ul 
+      {
+           list-style: none;
+           min-width: 100vw;
+           display: grid;
+           grid-template-columns: auto auto auto;
+      }
+  }
+
+  .lower-row
+  {
+      min-height: 60vh;
+
+      ul 
+      {
+          list-style: none;
+          min-width: 100vw;
+          display: grid;
+          grid-template-columns: auto auto auto;
+      }
+  }
+
+
+
 }
 
 section#contact-me {
