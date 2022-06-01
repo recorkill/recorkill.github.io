@@ -5,64 +5,92 @@
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
 body {
-  background: #fbfafa;
-  color: black;
-  margin: 0;
-  font-family: 'Poppins';
+  font-family: poppins, sans-serif;  
+  margin: 0px;
 }
 
-.navbar {
-  background: rgba(140, 37, 37, 0.402);
-  color: white;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: -webkit-sticky;
+nav {
+  background-color: #3f2edb64;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
   position: sticky;
+  top: 0px;
+  float: right;
 }
 
-.navbar .menu {
-  position: relative;
-  left: 65%;
-  /* REMOVE UNDERLINE FROM ALL HYPERLINKS IN THE MENU ITEM */
-}
-
-.navbar .menu a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Poppins';
-  font-weight: 700;
-}
-
-.navbar .menu li {
-  color: black;
-  display: inline-block;
-  border: hidden 1px black;
-  padding: 0px;
-  margin-right: 75px;
-}
-
-.hero-img {
-  background-image: url("/images/sunset.jpeg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: 0;
-}
-
-.hero-text {
+nav a {
   color: white;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
 }
 
-.hero-text h1 {
-  position: relative;
-  left: 31%;
-  top: 80px;
-  font-size: 50px;
+nav a:hover {
+  text-decoration: underline;
 }
-/*# sourceMappingURL=main.css.map */
+
+section {
+  min-height: 100vh;
+}
+
+section#header {
+  background-image: url("/images/sunset.jpeg");
+  color: #f5f4f7;
+  min-height: 100vh;
+}
+
+section#about-me {
+  background: white;
+  color: #0f2852;
+}
+
+section#previous-work {
+  background: white;
+  color: #40081a;
+}
+
+section#contact-me {
+  background-color: white;
+  color: #084012;
+}
+
+article {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
+}
