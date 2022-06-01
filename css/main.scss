@@ -13,35 +13,54 @@ body {
 }
 
 nav {
-  background-color: #3f2edb64;
+  background-color: #144b3981;
   padding: 10px;
-  text-align: center;
   width: 100%;
   position: sticky;
   top: 0px;
-  float: right;
+  min-height: 5vh;
+
 }
 
 nav a {
   color: white;
   text-decoration: none;
   margin: 0px 20px;
+  margin-right: 30px;
   font-size: 1.3em;
+  float: left;
+
+  display: block;
 }
 
+
 nav a:hover {
-  text-decoration: underline;
+  background-color: #ffd50281;
 }
+
 
 section {
   min-height: 100vh;
 }
 
 section#header {
-  background-image: url("/images/sunset.jpeg");
+  background: url("/images/bluebonnets.jpg") repeat fixed 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #f5f4f7;
   min-height: 100vh;
+
+  h2 
+  {text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 4em;}
+
+  p 
+  {font-size: 2em;
+    text-align: center;}
+
 }
+
 
 section#about-me {
   background: white;
