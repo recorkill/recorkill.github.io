@@ -1,0 +1,5 @@
+To-do:
+- figure out how to center lower row (also see 5, may not be worth doing)
+- figure out why upper row images are on top of the sticky menu
+- add links to the cards
+- add flips to lower row?

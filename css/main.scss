@@ -75,6 +75,8 @@ section#previous-work {
 
 
 
+
+
   .upper-row
   {
       min-height: 60vh;
@@ -96,15 +98,16 @@ section#previous-work {
 
 
         list-style: none;
-        min-width: 100vw;
+        min-width: 100%;
         display: grid;
         grid-template-columns: auto auto auto;
+
 
 
         /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 37vh;
+    width: 86%;
     height: 50vh;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 
@@ -166,24 +169,27 @@ section#previous-work {
   {
       min-height: 60vh;
 
+      ul 
+      {
+        align-items: center;
+        list-style: none;
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+
 
       img 
       {
           margin-top: 5%;
           border: 7px solid black;
-          max-width: 60%;
+          max-width: 86%;
       }
 
 
 
 
-      ul 
-      {
-          list-style: none;
-          min-width: 100vw;
-          display: grid;
-          grid-template-columns: auto auto auto;
-      }
+
   }
 
 

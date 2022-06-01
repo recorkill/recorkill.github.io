@@ -86,7 +86,7 @@ section#previous-work .upper-row {
 
 section#previous-work .upper-row ul {
   list-style: none;
-  min-width: 100vw;
+  min-width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
@@ -101,7 +101,7 @@ section#previous-work .upper-row ul {
 
 section#previous-work .upper-row ul .flip-card {
   background-color: transparent;
-  width: 37vh;
+  width: 86%;
   height: 50vh;
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -156,19 +156,22 @@ section#previous-work .lower-row {
   min-height: 60vh;
 }
 
-section#previous-work .lower-row img {
-  margin-top: 5%;
-  border: 7px solid black;
-  max-width: 60%;
-}
-
 section#previous-work .lower-row ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
-  min-width: 100vw;
+  min-width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
+}
+
+section#previous-work .lower-row img {
+  margin-top: 5%;
+  border: 7px solid black;
+  max-width: 86%;
 }
 
 section#contact-me {
