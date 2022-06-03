@@ -61,6 +61,27 @@ section#header p {
 section#about-me {
   background: #719f9f80;
   color: black;
+  padding-top: 20px;
+  /* Fills in the white space between sections*/
+}
+
+section#about-me img {
+  float: left;
+  max-width: 13%;
+  margin-left: 2%;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+section#about-me h2 {
+  float: center;
+  margin-left: 44vw;
+  margin-top: 2%;
+}
+
+section#about-me p {
+  margin-left: 20%;
+  font-size: 1.2em;
 }
 
 section#previous-work {
@@ -69,6 +90,11 @@ section#previous-work {
   padding-top: 20px;
   /* Fills in the white space between sections*/
   padding-bottom: 7%;
+}
+
+section#previous-work h2 {
+  margin-left: 44vw;
+  margin-top: 2%;
 }
 
 section#previous-work .upper-row {
@@ -237,22 +263,8 @@ section#contact-me {
   color: black;
 }
 
-article {
-  width: 90%;
-  max-width: 600px;
-  padding: 20px;
-  margin: 0px auto;
-}
-
-h2 {
-  text-align: center;
-  padding: 40px 0px 0px 0px;
-  font-size: 2em;
-}
-
 p {
   font-size: 1.5em;
-  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
