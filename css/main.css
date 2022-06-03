@@ -195,14 +195,6 @@ section#previous-work .upper-row ul .flip-card-back {
   width: 23vw;
 }
 
-.lower-row ul .flip-card p {
-  margin-top: 5%;
-  border: 7px solid black;
-  width: 23vw;
-  background-color: white;
-  height: 50vh;
-}
-
 .lower-row ul .flip-card-inner {
   position: relative;
   text-align: center;
