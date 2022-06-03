@@ -3,3 +3,7 @@ To-do:
 - figure out why upper row images are on top of the sticky menu
 - add links to the cards
 - add flips to lower row?
+
+To improve on:
+- More reusability. Re-writing a lot of the same stuff for different instances, could be a lot better if we created some kind of class to reference instead of re-coding everything.
+- Spacing. Spacing. Spacing. Goodness

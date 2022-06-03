@@ -261,6 +261,28 @@ section#previous-work .upper-row ul .flip-card-back {
 section#contact-me {
   background-color: #719f9f80;
   color: black;
+  padding-top: 20px;
+}
+
+section#contact-me h2 {
+  margin-left: 44vw;
+  margin-top: 2%;
+}
+
+section#contact-me ul {
+  margin-left: 8%;
+  list-style: none;
+  min-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+section#contact-me ul img {
+  margin-top: 5%;
+  width: 45%;
+  height: 80%;
 }
 
 p {

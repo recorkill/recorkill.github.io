@@ -286,7 +286,39 @@ section#previous-work {
 section#contact-me {
   background-color: #719f9f80;
   color: black;
+  padding-top: 20px;
+
+  h2
+  {
+    margin-left: 44vw;
+    margin-top: 2%;
+  }
+  
+  ul 
+  {
+
+
+    margin-left: 8%;
+    list-style: none;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    img 
+    {
+      margin-top: 5%;
+      width: 45%;
+      height: 80%;
+    }
+    
+
+
+
+
+  }
+
 }
+
 
 
 
