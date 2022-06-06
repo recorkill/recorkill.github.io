@@ -39,21 +39,21 @@ nav a:hover {
 }
 
 
-section {
-  min-height: 75vh;
-}
 
 section#header {
   background: url("/images/bluebonnets.jpg") repeat fixed 100%;
   background-repeat: no-repeat;
   background-size: cover;
   color: #f5f4f7;
-  min-height: 90vh;
+  min-height: 85vh;
+  margin: 0;
+  padding: 20px 0;
 
   h2 
   {text-align: center;
-    padding: 40px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
     font-size: 4em;}
+    margin: 0;
 
   p 
   {font-size: 2em;
@@ -66,6 +66,7 @@ section#about-me {
   background: #719f9f80;
   color: black;
   padding-top: 20px; /* Fills in the white space between sections*/
+  min-height: 75vh;
 
   img 
   {
@@ -287,6 +288,7 @@ section#contact-me {
   background-color: #719f9f80;
   color: black;
   padding-top: 20px;
+  min-height: 50vh;
 
   h2
   {
