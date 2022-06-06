@@ -98,7 +98,7 @@ section#previous-work {
   background: #719f9f37;
   color: black;
   padding-top: 20px; /* Fills in the white space between sections*/
-  padding-bottom: 7%;
+  padding-bottom: 10%;
 
   h2
   {
@@ -301,17 +301,25 @@ section#contact-me {
   {
 
 
-    margin-left: 8%;
+    margin-left: 7%;
     list-style: none;
     min-width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
+    align-items: center;
 
     img 
     {
+      object-fit: cover;
       margin-top: 5%;
-      width: 45%;
-      height: 80%;
+      margin-left: 0px;
+      height: 20vh;
+
+
+
+
+
+      
     }
     
 
